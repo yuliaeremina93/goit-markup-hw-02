@@ -27,8 +27,12 @@ body {
 }
 /* HEADER */
 .logo {
+  letter-spacing: 0.03em;
   font-family: Raleway, sans-serif;
   color: var(--title-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-blue {
@@ -125,7 +129,7 @@ body {
   color: white;
 }
 
-.address-address {
+.address-address > .link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -140,7 +144,20 @@ body {
 
 /* SECOND PAGE */
 /* PORTFOLIO SECTION */
-
+.portfolio-button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: white;
+  background-color: var(--accent-color);
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
